@@ -1,45 +1,85 @@
+/* General Styles */
 body {
-  background-color: #2e2e2e;
-  /* Darker gray background */
-  color: #a8d5ba;
-  /* Soft green text */
+  background-color: #1e1e1e;
+  /* Dark background */
+  color: #b0c4de;
+  /* Light steel blue text */
   font-family: 'Courier New', Courier, monospace;
-  /* Monospace font */
+  /* Monospaced font */
+  line-height: 1.6;
   margin: 0;
   padding: 20px;
 }
 
-.terminal {
-  border: 2px solid #a8d5ba;
-  /* Soft green border */
-  border-radius: 5px;
-  padding: 20px;
-  box-shadow: 0 0 10px rgba(168, 213, 186, 0.5);
-  /* Mild glow effect */
+/* Header Styles */
+header {
+  border-bottom: 1px solid #4682b4;
+  /* Steel blue border */
+  padding-bottom: 10px;
+  margin-bottom: 20px;
 }
 
-.title {
-  font-size: 2em;
+h1,
+h2,
+h3 {
+  color: #87cefa;
+  /* Light sky blue headers */
+}
+
+/* Link Styles */
+a {
+  color: #87cefa;
+  /* Light sky blue links */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Post Styles */
+.post {
+  background-color: #2e2e2e;
+  /* Slightly lighter background for posts */
+  border: 1px solid #4682b4;
+  /* Steel blue border */
+  border-radius: 5px;
+  padding: 15px;
   margin-bottom: 20px;
+}
+
+/* Code Block Styles */
+pre {
+  background-color: #2e2e2e;
+  border: 1px solid #4682b4;
+  /* Steel blue border */
+  border-radius: 5px;
+  padding: 10px;
+  overflow-x: auto;
+}
+
+/* Footer Styles */
+footer {
+  border-top: 1px solid #4682b4;
+  /* Steel blue border */
+  padding-top: 10px;
+  margin-top: 20px;
   text-align: center;
 }
 
-.post {
-  margin-bottom: 20px;
-  padding: 10px;
-  border: 1px solid #a8d5ba;
-  /* Soft green border for posts */
+/* Button Styles */
+button {
+  background-color: #4682b4;
+  /* Steel blue button */
+  color: #1e1e1e;
+  /* Dark text */
+  border: none;
   border-radius: 5px;
-  background-color: rgba(168, 213, 186, 0.1);
-  /* Light soft green background */
+  padding: 10px 15px;
+  cursor: pointer;
 }
 
-.post-title {
-  font-size: 1.5em;
-  margin: 0;
-}
-
-.post-content {
-  font-size: 1em;
-  line-height: 1.5;
+button:hover {
+  background-color: #5f9ea0;
+  /* Darker shade on hover */
 }
